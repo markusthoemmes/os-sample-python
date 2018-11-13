@@ -6,7 +6,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    sleep(randint(1, 10))
+    sleep(200)
     return "Hello Knative & Openshift!\n"
 
 if __name__ == "__main__":
